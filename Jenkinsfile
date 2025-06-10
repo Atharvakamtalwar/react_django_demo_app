@@ -3,7 +3,7 @@ pipeline{
     agent {label "jarvis"}
     
     stages{
-        stage("Hello"){
+        stage("Hello Jenkins"){
             steps{
                 script{
                     hello()
