@@ -17,7 +17,7 @@ pipeline{
                 }
             }
         }
-        stage("Build"){
+        stage("Build Image"){
             steps{
                 script{
                     docker_build("notes-app", "latest", "atharvakamtalwar")
